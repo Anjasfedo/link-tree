@@ -80,10 +80,7 @@ main {
 
 .link {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 14px;
+  padding: 15px 20px;
   border: 1px solid #334155;
   border-radius: 8px;
   width: 420px;
@@ -93,6 +90,7 @@ main {
   cursor: pointer;
   overflow: hidden;
   color: white;
+  text-decoration: none;
 }
 
 .link:hover {
@@ -100,6 +98,10 @@ main {
 }
 
 .linkBackground {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
   inset: 0;
   background: #020617;
@@ -109,5 +111,6 @@ main {
 
 .link p {
   font-size: 0.8em;
-  text-decoration: none;
 }
+
+
